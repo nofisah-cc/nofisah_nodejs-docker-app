@@ -26,19 +26,19 @@ npm start
 
 ```bash
 # Build
-docker build -t YOUR_DOCKERHUB_USERNAME/nodejs-app:1.0 .
+docker build -t nofisahcloud/nofisah_nodejs-app:1.0 .
 
 # Run
-docker run -d -p 3000:3000 YOUR_DOCKERHUB_USERNAME/nodejs-app:1.0
+docker run -d -p 3000:3000 nofisahcloud/nofisah_nodejs-app:1.0
 
-# visit http://YOUR_SERVER_IP:3000
+# visit http://51.21.35.242:3000
 ```
 
 ## Pull from Docker Hub
 
 ```bash
-docker pull YOUR_DOCKERHUB_USERNAME/nodejs-app:1.0
-docker run -d -p 3000:3000 YOUR_DOCKERHUB_USERNAME/nodejs-app:1.0
+docker pull nofisahcloud/nofisah_nodejs-app:1.0
+docker run -d -p 3000:3000 nofisahcloud/nofisah_nodejs-app:1.0
 ```
 
 ---
